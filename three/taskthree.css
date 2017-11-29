@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: PingFangSC-Regular, Verdana, Arial, '微软雅黑', '宋体';
+	font-size: 14px;
+	background-color: #fff;
+}
+
+#main {
+	margin: 20px;
+	background-color: #eee;
+	overflow: hidden; //清除浮动，父容器获得高度，使用auto时，ie会自动添加滚动条
+}
+
+#team {
+	margin: 20px;
+	width: 200px;
+	background-color: #fff;
+	height: 120px;
+}
+
+#team img {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+#teamname {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+#pic {
+	margin: 20px;
+	width: 120px;
+	background-color: #fff;
+}
+
+#pic ul {
+	margin: 20px;
+	list-style-type: none;
+}
+
+#pic ul li {
+	margin-top: 20px;
+}
+
+#intro {
+	margin: 20px;
+	background-color: #fff;
+	margin-left: 240px;
+	margin-right: 160px;
+}
+
+#content {
+	margin: 20px;
+	line-height: 30px;
+}
+
+.border {
+	border: 1px solid #999;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
